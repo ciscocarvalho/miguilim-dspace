@@ -434,7 +434,7 @@
 		<input type="submit" class="button-main-outline" name="submit_browse" value="<fmt:message key="jsp.general.update"/>"/>
 
 <%
-    if (admin_button && !withdrawn && !privateitems)
+    if (!withdrawn && !privateitems)
     {
         %><input type="submit" class="button-main-outline" name="submit_export_metadata" value="<fmt:message key="jsp.general.metadataexport.button"/>" /><%
     }
